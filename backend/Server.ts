@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-dotenv.config({ path: `./config/constants/.env` });
+dotenv.config({ path: `./.env` });
 import express from 'express';
 import Routes from './route/index';
 import cors from 'cors';
@@ -29,7 +29,7 @@ class Server{
         Server.app.use(express.json());
         Server.app.use(express.urlencoded({ extended: false }));
         var corsOptions = {
-          origin: ["http://localhost:5000"]
+          origin: ["http://localhost:3001"]
         };
         Server.app.use(cors(corsOptions));
     }
