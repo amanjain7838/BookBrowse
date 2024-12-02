@@ -1,0 +1,4 @@
+backend/config/constants/.env
+backend/dist
+backend/package-lock.json
+backend/node_modules/*
