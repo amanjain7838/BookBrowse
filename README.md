@@ -1,4 +1,6 @@
-Create env file in backend with following keys
-GOOGLE_API_KEY
+Create env file in backend with following keys<br>
+GOOGLE_API_KEY<br>
 GOOGLE_BOOKS_API_URL
-![alt text](screenshots/screen1.png)
+<br><br>
+![Screenshot](screenshots/screen1.png)
+![Screenshot](screenshots/screen2.png)
